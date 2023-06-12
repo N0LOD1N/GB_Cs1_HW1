@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите число: ");
-string num = Console.ReadLine();
+string num = Console.ReadLine() ?? "";
 
 int index = 0;
 while (index < num.Length)
